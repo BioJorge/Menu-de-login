@@ -218,7 +218,8 @@ main{
     transition: .5s ease;
 }
 .input-box input:focus~label,
-.input-box input:valid~label{
+.input-box input:valid~label,
+.input-box input:invalid~label{
     top: -5px;
 }
 .input-box .icon{
